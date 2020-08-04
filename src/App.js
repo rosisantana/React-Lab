@@ -2,6 +2,7 @@
 import React from 'react';
 import LogoReactLab from './components/LogoReactLab';
 import HeaderReactLab from './components/HeaderReactLab';
+import ButtomReactLab from './components/ButtomReactLab';
 
 
 
@@ -10,7 +11,7 @@ function App() {
   return (
     <HeaderReactLab>
       <LogoReactLab />      
-      
+      <ButtomReactLab>Novo Vídeo</ButtomReactLab>
     </HeaderReactLab>
   );
 }
