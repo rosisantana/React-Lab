@@ -1,0 +1,4 @@
+/* Root é uma pseudoclasse, que permite que as configurações presentes nele fiquem acessíveis dentro de qualquer styled component do nosso projeto */
+:root {
+    --color-black-dark: #000; 
+}
