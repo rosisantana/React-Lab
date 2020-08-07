@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ButtomReactLab = styled.button`
-    padding: 11px 31px; 
+    padding: 11rem 30rem; 
     background-color: var(--color-black-dark);
     color: var(--color-gray-light);
     border: 1px solid var(--color-gray-light); 
