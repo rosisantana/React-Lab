@@ -6,7 +6,7 @@ import LogoReactLab from '../LogoReactLab';
 const HeaderReactLab = styled.header`
     display: flex;
     justify-content: space-between;
-    align-itens: center;
+    align-items: center;
     padding: 20rem 30rem;
     background-color: var(--color-black-dark);
     border-bottom: 4px solid var(--color-primary-medium);

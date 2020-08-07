@@ -7,6 +7,8 @@ import FooterReactLab from './components/FooterReactLab';
 import LogoImersao from './components/LogoImersao';
 import BannerReactLab from './components/BannerReactLab';
 import TagReactLab from './components/TagReactLab';
+import TitleReactLab from './components/TitleReactLab';
+import DescriptionReactLab from './components/DescriptionReactLab';
 
 
 //JSX - [J]ava[S]cript [X]ML abaixo - Escrevendo HTML dentro do JavaScript ;) 
@@ -20,7 +22,14 @@ function App() {
 
       <BannerReactLab>
 
-        <TagReactLab>FrontEnd</TagReactLab>
+        <TagReactLab>Games</TagReactLab>
+        <TitleReactLab>Os melhores games do mundo</TitleReactLab>
+        <DescriptionReactLab>
+          Este é mais um vídeo do jogos da galera. Desta vez, uma tentativa de ter a minha primeira vitória em duplas no Fortnite. Eu conto com a ajuda do Flakes, do canal Flakes Power.
+
+          Jogo: Fortnite
+          Sistemas: PC, PS4, iOS, Xbox One, Switch, iOs e Android
+        </DescriptionReactLab>
       </BannerReactLab>
 
       <FooterReactLab>
