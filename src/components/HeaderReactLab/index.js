@@ -1,19 +1,28 @@
 import styled from 'styled-components';
 import ButtomReactLab from '../ButtomReactLab';
 import LogoReactLab from '../LogoReactLab';
+import container from '../../tools/container';
 
 
-const HeaderReactLab = styled.header`
+export const HeaderReactLab = styled.header`
+    background-color: var(--color-black-dark);
+    border-bottom: 4px solid var(--color-primary-medium);
+    padding: 20rem 0; 
+    
+
+    @media(max-width: 800px){        
+        padding: 15rem 16rem; 
+    }
+`; 
+
+export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20rem 30rem;
-    background-color: var(--color-black-dark);
-    border-bottom: 4px solid var(--color-primary-medium);
-
+    ${container}; 
+    
     @media(max-width: 800px){
         justify-content: center;
-        padding: 15px 16px; 
 
         & > ${LogoReactLab} {
             height: 30px;
@@ -30,6 +39,4 @@ const HeaderReactLab = styled.header`
             width: 100vw; 
         }
     }
-`; 
-
-export default HeaderReactLab;
+`;
